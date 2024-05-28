@@ -13,3 +13,9 @@
 4. A (archivo agregado al repositorio local)
 
 5. M (el archivo fue modificado, pero no guardado)
+
+6. git commit (embalar el paquete de archivos para enviarlo)
+    
+    -m (comentar o describir la tarea realizada)
+
+7. Si tocamos algo, volvemos a iniciar, menos el punto 1.
