@@ -1,0 +1,15 @@
+
+
+1. git init (inicia un repositorio local copiando todo lo que tengo en el directorio donde lo inicio)
+
+2. U (sin seguimiento, no esta guardado en el repositorio local)
+
+3. git add (agrega todos los datos al repositorio local)
+
+    -git add index.html (agregar el archivo al repositorio local, agregando el nombre del archivo)
+
+    -git add .(agrega todo el directorio donde estamos trabajando)
+
+4. A (archivo agregado al repositorio local)
+
+5. M (el archivo fue modificado, pero no guardado)
