@@ -18,4 +18,4 @@
     
     -m (comentar o describir la tarea realizada)
 
-7. Si tocamos algo, volvemos a iniciar, menos el punto 1.
+7. Si tocamos algo, volvemos a iniciar, menos el punto numero 1. 
