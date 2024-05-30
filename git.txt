@@ -19,3 +19,8 @@
     -m (comentar o describir la tarea realizada)
 
 7. Si tocamos algo, volvemos a iniciar, menos el punto numero 1. 
+
+8. git status (consulta el estado de git)
+
+9. git no guarda directorios vacios por default
+
