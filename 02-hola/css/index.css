@@ -8,3 +8,22 @@ p{
     font-size: 35px;
     color: saddlebrown;
 }
+
+div{
+    color: blue;
+}
+
+/* 1. Selector con ID */
+#colorMarron{
+    color: brown;
+}
+
+/* 2. Selector de Clase */
+.colorFondo{
+    background: violet;
+}
+
+.textoGrande{
+    font-size: 60px;
+}
+

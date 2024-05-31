@@ -24,3 +24,6 @@
 
 9. git no guarda directorios vacios por default
 
+10. git remote -v (me muestra donde estan los codigos guardados en remoto)
+
+11. git log (me muestra los commits hechos y quien los hizo)
