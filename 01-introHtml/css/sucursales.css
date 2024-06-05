@@ -1,4 +1,14 @@
 
+/* 2. regla para una tipografia local - descargada */
+@font-face{
+    font-family: "automali";
+    src: url("../assets/font/automali/Automali.ttf");
+    src: url("../assets/font/automali/Automali.otf");
+
+}
+
+/* 3. link de la tipografia que usaremos */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 ol li{
     color: brown;
@@ -6,7 +16,19 @@ ol li{
 
 
 p{
-    color: blue;
     font-size: 24px;
+    /* 1. tipografia del sistema operativo */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.folderFont{
+    font-family: automali;
+    font-size: 36px;
+}
+
+.googleFonts{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
