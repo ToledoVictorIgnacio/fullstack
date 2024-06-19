@@ -27,3 +27,9 @@
 10. git remote -v (me muestra donde estan los codigos guardados en remoto)
 
 11. git log (me muestra los commits hechos y quien los hizo)
+
+12. creamos un repo en github
+
+13. agregamos la url del repo remoto de git local - git remote add origin
+
+14. enviamos el repo - git push origin master
