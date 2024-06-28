@@ -13,7 +13,7 @@ let resultadoMultiplicacion; */
 
 resultado = numUno + numDos
 
-console.log(15 + 50)
+console.log(20 + 50)
 
 console.log(numUno + numDos)
 
@@ -23,4 +23,14 @@ resultado = numUno - numDos
 
 console.log("El resultado de la resta es:" + resultado )
 
-alert("El resultado de la resta es:" + resultado )
+resultado = numUno * numDos
+
+console.log("El resultado de la multiplicacion es:" + resultado )
+
+resultado = numUno / numDos
+
+console.log("El resultado de la division es:" + resultado )
+
+resultado = numUno % numDos
+
+console.log("El resultado del modulo es:" + resultado )
