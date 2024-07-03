@@ -2,7 +2,7 @@
 
 alert("Hola, vamos a sumar 2 numeros");
 
-let numeroUnoDelUsuario = prompt("Ingresa el primer numero: ");
+ let numeroUnoDelUsuario = prompt("Ingresa el primer numero: "); 
 
 console.log("el numero del usuario es: " + numeroUnoDelUsuario);
 

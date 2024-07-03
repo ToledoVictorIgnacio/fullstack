@@ -33,4 +33,7 @@ console.log("El resultado de la division es:" + resultado )
 
 resultado = numUno % numDos
 
-console.log("El resultado del modulo es:" + resultado )
+console.log("El resultado del modulo es:" + resultado ) 
+
+//ejemplo de lennguaje estatico
+//java + c++ + c# + kotlin + swift + typescript
