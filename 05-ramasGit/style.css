@@ -1,3 +1,30 @@
 body{
-    background-color: black;
+    background-color: lightblue;
+}
+
+img{
+    width: 350px;
+    height: 300px;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+}
+
+main{
+    display: flex;
+    /* flex-direction: row;     (elementos en fila por default) */
+    /* flex-direction: column;     (elementos en columna ordenada) */
+    /* flex-direction: row-reverse;     (elemntos en fila ordenados del reves)*/
+    /* flex-direction: column-reverse;      (elementos en columna ordenados del reves) */
+    flex-direction: row;
+    /* flex-wrap: nowrap;       (viene por default y no hace salto de linea)*/
+    flex-wrap: wrap;
+}
+
+div{
+    margin: 10px;
 }
