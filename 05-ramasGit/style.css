@@ -14,7 +14,7 @@ ul{
     display: inline;
 }
 
-main{
+.producto{
     display: flex;
     /* flex-direction: row;     (elementos en fila por default) */
     /* flex-direction: column;     (elementos en columna ordenada) */
@@ -25,6 +25,57 @@ main{
     flex-wrap: wrap;
 }
 
+.menu{
+    height: 100px;
+    width: 350px;
+}
+
 div{
     margin: 10px;
+} 
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    list-style-type: none;
+}
+
+ul li{
+    margin: 15px;
+    font-size: 24px;
+}
+
+a{
+    margin: 15px;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+
+td{
+    border: solid 2px black;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla{
+    width: 80%;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;;
 }
