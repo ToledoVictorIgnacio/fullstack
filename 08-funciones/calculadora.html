@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simple</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora Simple</h1>
+
+        <button onclick="sumar()" type="button" class="btn btn-success">Boton Sumar</button>
+        <button onclick="restar()" type="button" class="btn btn-danger">Boton Restar</button>
+        <button onclick="multiplicar()" type="button" class="btn btn-danger">Boton Multiplicar</button>
+        <button onclick="dividir()" type="button" class="btn btn-danger">Boton Dividir</button>
+    </div>
+
+    <script src="./calculadora.js"></script>
+</body>
+</html>

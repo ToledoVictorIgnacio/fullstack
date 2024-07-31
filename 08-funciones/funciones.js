@@ -111,3 +111,27 @@ function sumarDos(x, y) {
 sumarDos(100, 50)
 
 console.log("===================================================");
+
+//funciones con retorno de valor
+const dividir = (numeroUno, numeroDos) => {
+    let resltado = numeroUno / numeroDos;
+
+    return resltado;
+}
+
+let iva = dividir(100, 10) * 20;
+
+console.log("El iva a pagar es de " + iva); 
+
+function decirNombre(nombre) {
+    let saludo = "Hola " + nombre
+    return saludo
+}
+
+decirNombre("Juan") //Si se ejecuta pero no lo imprimimos en consola o no lo guardamos en una variaable
+
+console.log(decirNombre("Juan"));
+
+let saludo = decirNombre("Pepe")
+
+console.log(saludo);
