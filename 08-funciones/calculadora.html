@@ -19,13 +19,25 @@
     </style>
 </head>
 <body>
-    <div class="calculator">
-        <h1>Calculadora Simple</h1>
+    <h1 class="text-center mt-5" ondblclick="doble()">
+        calculadora basica
+    </h1>
 
+    <div class="calculator">
         <button onclick="sumar()" type="button" class="btn btn-success">Boton Sumar</button>
         <button onclick="restar()" type="button" class="btn btn-danger">Boton Restar</button>
         <button onclick="multiplicar()" type="button" class="btn btn-danger">Boton Multiplicar</button>
         <button onclick="dividir()" type="button" class="btn btn-danger">Boton Dividir</button>
+    </div>
+
+    <h1 class="text-center mt-5" onmouseover="alert('estes es el titulo')">
+        Otras Funciones de JS nativas
+    </h1>
+
+    <div class="mt-5 text-center" onmouseover="()=>{console.log('Hola gente');}">
+        <label for="contador">contador: </label>
+        <br>
+        <input onkeypress="contador()" placeholder="hace click en una tecla">
     </div>
 
     <script src="./calculadora.js"></script>
