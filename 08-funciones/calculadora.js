@@ -88,3 +88,10 @@ const contador = () =>{
 function doble() {
     alert("Doble click en el elemento")
 }
+
+if (nombre == typeof String) {
+    console.log("todo bien");
+    
+} else {
+    "la edad tiene que ser un numero entero"
+}
