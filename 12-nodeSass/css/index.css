@@ -1,0 +1,32 @@
+.nav {
+  background-color: #fde;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .nav ul {
+    list-style: none; }
+    .nav ul li {
+      display: flex; }
+      .nav ul li a {
+        color: white; }
+        .nav ul li a:hover {
+          color: #222; }
+
+body {
+  background-color: #222; }
+
+h1 {
+  color: #fde;
+  font-family: Arial, sans-serif; }
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
