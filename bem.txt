@@ -1,0 +1,8 @@
+
+
+
+BEM es un patron de diseño para la nomenclatura de las clases en css y la utiliza mucho tanto bootstrap  como bulma
+
+Bloque: se nombra un bloque principal (navbar)
+Elemento: es una etiqueta hija con unas modificaciones en el estilo (navbar__menu)
+Modificador: es el ultimo estilo que aplicamos al bloque padre (navbar__menu__links)
